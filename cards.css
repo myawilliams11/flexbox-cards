@@ -23,6 +23,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content:center;
+    align-content:center;
     align-items: center;
 }
 
@@ -68,5 +69,5 @@ html {
   
     .cardGroup__cardDescription {
       /* flex-grow, flex-shrink, flex-basis */
-      flex-grow: 25%;
+      flex-basis: 150%;
     }
